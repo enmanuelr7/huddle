@@ -1,7 +1,7 @@
 import GlobalStyles from "./components/styled/Global";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
-import { Container } from "./components/styled/Component.styled";
+import { Container } from "./components/styled/Container.styled";
 
 const theme = {
   colors: {
