@@ -1,8 +1,8 @@
 import { StyledCard } from "./styled/Card.styled";
 
-export default function Card({ item: { title, body, image } }) {
+export default function Card({ item: { title, body, image }, index }) {
   return (
-    <StyledCard>
+    <StyledCard inverted={index % 2 === 0}>
       <div>
         <h2>{title}</h2>
         <p>{body}</p>

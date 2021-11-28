@@ -20,8 +20,8 @@ function App() {
       <GlobalStyles />
       <Header />
       <Container>
-        {content.map((item) => (
-          <Card item={item} key={item.id} />
+        {content.map((item, index) => (
+          <Card item={item} key={item.id} index={index} />
         ))}
       </Container>
     </ThemeProvider>
